@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		795C54D126FA23E5005132B8 /* EventKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		795C54D126FA23E5005132B8 /* EventKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		795C54D426FA23E5005132B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		795C54D626FA23E5005132B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		795C54D826FA23E5005132B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		795C54C826FA23E5005132B8 = {
 			isa = PBXGroup;
 			children = (
-				795C54D326FA23E5005132B8 /* EventKit */,
+				795C54D326FA23E5005132B8 /* EventKitExample */,
 				795C54D226FA23E5005132B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		795C54D226FA23E5005132B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				795C54D126FA23E5005132B8 /* EventKit.app */,
+				795C54D126FA23E5005132B8 /* EventKitExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		795C54D326FA23E5005132B8 /* EventKit */ = {
+		795C54D326FA23E5005132B8 /* EventKitExample */ = {
 			isa = PBXGroup;
 			children = (
 				795C54D426FA23E5005132B8 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				795C54DF26FA23E7005132B8 /* LaunchScreen.storyboard */,
 				795C54E226FA23E7005132B8 /* Info.plist */,
 			);
-			path = EventKit;
+			path = EventKitExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		795C54D026FA23E5005132B8 /* EventKit */ = {
+		795C54D026FA23E5005132B8 /* EventKitExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 795C54E526FA23E7005132B8 /* Build configuration list for PBXNativeTarget "EventKit" */;
+			buildConfigurationList = 795C54E526FA23E7005132B8 /* Build configuration list for PBXNativeTarget "EventKitExample" */;
 			buildPhases = (
 				795C54CD26FA23E5005132B8 /* Sources */,
 				795C54CE26FA23E5005132B8 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = EventKit;
+			name = EventKitExample;
 			productName = EventKit;
-			productReference = 795C54D126FA23E5005132B8 /* EventKit.app */;
+			productReference = 795C54D126FA23E5005132B8 /* EventKitExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 795C54CC26FA23E5005132B8 /* Build configuration list for PBXProject "EventKit" */;
+			buildConfigurationList = 795C54CC26FA23E5005132B8 /* Build configuration list for PBXProject "EventKitExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				795C54D026FA23E5005132B8 /* EventKit */,
+				795C54D026FA23E5005132B8 /* EventKitExample */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +288,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5H255ZF9U;
-				INFOPLIST_FILE = EventKit/Info.plist;
+				INFOPLIST_FILE = EventKitExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = emao.EventKit;
+				PRODUCT_BUNDLE_IDENTIFIER = emao.EventKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +307,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5H255ZF9U;
-				INFOPLIST_FILE = EventKit/Info.plist;
+				INFOPLIST_FILE = EventKitExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = emao.EventKit;
+				PRODUCT_BUNDLE_IDENTIFIER = emao.EventKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		795C54CC26FA23E5005132B8 /* Build configuration list for PBXProject "EventKit" */ = {
+		795C54CC26FA23E5005132B8 /* Build configuration list for PBXProject "EventKitExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				795C54E326FA23E7005132B8 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		795C54E526FA23E7005132B8 /* Build configuration list for PBXNativeTarget "EventKit" */ = {
+		795C54E526FA23E7005132B8 /* Build configuration list for PBXNativeTarget "EventKitExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				795C54E626FA23E7005132B8 /* Debug */,

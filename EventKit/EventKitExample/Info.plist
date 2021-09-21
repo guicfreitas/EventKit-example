@@ -62,5 +62,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Requesting the calendar to give more funcionality</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Requesting to remind teh user</string>
 </dict>
 </plist>
