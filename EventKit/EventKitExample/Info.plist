@@ -63,8 +63,12 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSCalendarsUsageDescription</key>
-	<string>Requesting the calendar to give more funcionality</string>
+	<string>Allow us to add events into your calendar</string>
 	<key>NSRemindersUsageDescription</key>
 	<string>Requesting to remind teh user</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow us to retrive location to sugest you place to set in your calendar</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Allow us to retrive contacts to sugest you contacts to set in your calendar</string>
 </dict>
 </plist>

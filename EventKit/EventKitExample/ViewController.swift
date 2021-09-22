@@ -4,12 +4,13 @@
 //
 //  Created by João Guilherme on 21/09/21.
 //
-
-import EventKitUI
-import EventKit
 import UIKit
+import EventKit
+import EventKitUI
 
-class ViewController: UIViewController, EKEventViewDelegate {
+class ViewController: UIViewController, EKEventViewDelegate, EKEventEditViewDelegate {
+    
+    
     
     let store = EKEventStore()
 
@@ -23,10 +24,15 @@ class ViewController: UIViewController, EKEventViewDelegate {
         store.requestAccess(to: .event){[weak self] success, err in
             if success, err  == nil{
                 DispatchQueue.main.async {
-                    let eventViewController = EKEventViewController()
-                    eventViewController.delegate = self
-                    eventViewController.event = nil
-                    self?.present(eventViewController, animated: true)
+                    guard let store = self?.store else { return }
+                    
+                    let newEvent = EKEvent(eventStore: store)
+                    
+                    let eventViewController = EKEventEditViewController()
+                    eventViewController.editViewDelegate = self
+                    eventViewController.eventStore = store
+                    eventViewController.event = newEvent
+                    self?.present(eventViewController, animated: true, completion: nil)
                 }
             }
         }
@@ -35,6 +41,10 @@ class ViewController: UIViewController, EKEventViewDelegate {
     
     func eventViewController(_ controller: EKEventViewController, didCompleteWith action: EKEventViewAction) {
         
+    }
+    
+    func eventEditViewController(_ controller: EKEventEditViewController, didCompleteWith action: EKEventEditViewAction) {
+        controller.dismiss(animated: true, completion: nil)
     }
 }
 
